@@ -76,7 +76,7 @@ class AlarmClockForm extends Component {
         <input type="number" placeholder="hours" onChange={this.handleHoursChange} max="12" value={this.state.hours}/>
         <input type="number" placeholder="minutes" onChange={this.handleMinutesChange} maxLength="59" value={this.state.minutes}/>
         <input type="number" placeholder="seconds" onChange={this.handleSecondsChange} maxLength="59" value={this.state.seconds}/>
-        <select name="" id="" onChange={this.handlePeriodChange}>
+        <select onChange={this.handlePeriodChange}>
           <option value="AM">AM</option>
           <option value="PM">PM</option>
         </select>

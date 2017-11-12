@@ -3,10 +3,31 @@ body {
   font-family: Orbitron;
 }
 
+.clock-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.clock-container-top {
+  display: flex;
+  align-items: center;
+}
+
+.clock-container-top div{
+  margin: 10px;
+}
+
 .clock {
   border: solid 1px black;
   border-radius: 5px;
-  margin: auto;
   width: 300px;
   padding: 5px 0;
   font-size: 30px;
@@ -16,4 +37,12 @@ body {
 
 .clock-child {
   width: 75px;
+}
+
+.alarm-clock-form input, select {
+  margin: 0 2px;
+}
+
+.alarm-clock-form input {
+  width: 80px;
 }
